@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "ts-node -O '{\"module\":\"commonjs\"}' src/index"
+    "test": "ts-node -O '{\"module\":\"commonjs\"}' src/index",
+    "postinstall": "tsc --outDir ./build"
   },
   "author": "Rio",
   "types": "./specs.d.ts",
