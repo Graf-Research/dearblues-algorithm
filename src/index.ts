@@ -1,7 +1,21 @@
+import { Vertex, CoordinatedVertex, Edge } from "./graph.interface";
+import { Point } from "./point";
+import { DFS } from './algorithm/dfs';
+import { FloodFill, FloodFillTree } from "./algorithm/flood-fill";
+import { FloydWarshall } from "./algorithm/floyd-warshall";
 import { ForceDirectedEades } from "./algorithm/force-directed-eades";
 import { ForceDirectedFruchtermanReingold } from "./algorithm/force-directed-fruchterman-reingold";
 import { ForceDirectedKamadaKawai } from "./algorithm/force-directed-kamada-kawai";
-import { Edge, Vertex } from "./graph.interface";
+
+export {
+  Point,
+  DFS,
+  FloodFill, FloydWarshall,
+  ForceDirectedEades,
+  ForceDirectedFruchtermanReingold,
+  ForceDirectedKamadaKawai
+};
+export type { Vertex, CoordinatedVertex, Edge, FloodFillTree };
 
 const A: Vertex = { label: 'A', weight: 1 };
 const B: Vertex = { label: 'B', weight: 1 };
