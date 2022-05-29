@@ -1,7 +1,7 @@
 import { Vertex, CoordinatedVertex, Edge } from "./src/graph.interface";
 import { Point } from "./src/point";
 import { DFS } from './src/algorithm/dfs';
-import { FloodFill } from "./src/algorithm/flood-fill";
+import { FloodFill, FloodFillTree } from "./src/algorithm/flood-fill";
 import { FloydWarshall } from "./src/algorithm/floyd-warshall";
 import { ForceDirectedEades } from "./src/algorithm/force-directed-eades";
 import { ForceDirectedFruchtermanReingold } from "./src/algorithm/force-directed-fruchterman-reingold";
@@ -11,7 +11,7 @@ export {
   Vertex, CoordinatedVertex, Edge,
   Point,
   DFS,
-  FloodFill,
+  FloodFill, FloodFillTree,
   FloydWarshall,
   ForceDirectedEades,
   ForceDirectedFruchtermanReingold,
