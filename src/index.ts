@@ -7,16 +7,6 @@ import { ForceDirectedEades } from "./algorithm/force-directed-eades";
 import { ForceDirectedFruchtermanReingold } from "./algorithm/force-directed-fruchterman-reingold";
 import { ForceDirectedKamadaKawai } from "./algorithm/force-directed-kamada-kawai";
 
-export {
-  Point,
-  DFS,
-  FloodFill, FloydWarshall,
-  ForceDirectedEades,
-  ForceDirectedFruchtermanReingold,
-  ForceDirectedKamadaKawai
-};
-export type { Vertex, CoordinatedVertex, Edge, FloodFillTree };
-
 const A: Vertex = { label: 'A', weight: 1 };
 const B: Vertex = { label: 'B', weight: 1 };
 const C: Vertex = { label: 'C', weight: 1 };
