@@ -3,10 +3,12 @@ export interface Vertex {
   weight: number
 }
 
-export interface CoordinatedVertex extends Vertex {
+export interface SimplePoint {
   x: number
   y: number
 }
+
+export interface CoordinatedVertex extends Vertex, SimplePoint {}
 
 export interface Edge {
   v1: Vertex
